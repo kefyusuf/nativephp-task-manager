@@ -1,0 +1,61 @@
+# Environment / secrets
+.env
+.env.backup
+.env.production
+/auth.json
+/storage/*.key
+
+# Dependencies
+/node_modules
+/vendor
+
+# Build output
+/public/build
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+/nativephp
+
+# Local databases (dev + NativePHP)
+/database/*.sqlite
+/database/*.sqlite-shm
+/database/*.sqlite-wal
+
+# Logs & caches
+*.log
+.phpunit.result.cache
+/.phpunit.cache
+/storage/pail
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+/storage/app/public/*
+/storage/app/private/*
+/storage/app/releases
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+/.idea
+/.nova
+/.vscode
+/.zed
+/.cursor
+.phpactor.json
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+
+# Agent / local tooling (not part of the demo app)
+/.agents
+/.claude
+/.codex
+/.grok
+/.kiro
+/.mimosa
+/.pi
+/.mcp.json
+/opencode.json
+/boost.json
